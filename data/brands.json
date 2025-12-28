@@ -1,0 +1,23 @@
+[
+  {
+    "id": "brand-1",
+    "name": "TechCorp Solutions",
+    "domain": "techcorp.com",
+    "industry": "Enterprise SaaS",
+    "lastAuditDate": "2024-12-15T10:30:00Z"
+  },
+  {
+    "id": "brand-2",
+    "name": "GreenLeaf Organics",
+    "domain": "greenleaf.co",
+    "industry": "E-commerce",
+    "lastAuditDate": "2024-12-10T14:20:00Z"
+  },
+  {
+    "id": "brand-3",
+    "name": "FinanceFlow",
+    "domain": "financeflow.io",
+    "industry": "FinTech",
+    "lastAuditDate": "2024-12-12T09:15:00Z"
+  }
+]

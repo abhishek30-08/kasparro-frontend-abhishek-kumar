@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kasparro Frontend Engineering Assignment
 
-## Getting Started
+## Overview
+This project is a frontend prototype for Kasparro, an AI-native SEO platform designed for the AI-first search era. The goal is to demonstrate product thinking, system design, and clean frontend architecture using Next.js App Router.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Mocked JSON data (no backend)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Application Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Public Pages
+- `/` – Marketing homepage introducing AI-native SEO
+- `/platform` – Product overview and audit pipeline explanation
+- `/about` – Mission, philosophy, and vision
 
-## Learn More
+### Product Pages
+- `/dashboard` – High-level brand visibility overview (mocked)
+- `/audit` – Core audit interface driven by structured JSON data
+- `/architecture` – System architecture and data flow explanation
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Audit System Design
+Audit modules are driven by structured mocked data located in `audit-data/modules.json`. Each module contains:
+- Score
+- Insights
+- Issues
+- Recommendations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The audit UI dynamically renders module content using React state, ensuring no hard-coded audit logic in components.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Architectural Decisions
+- App Router is used for clear route-based layout separation
+- Data-driven UI to simulate real backend integration
+- Clean separation of layout, feature, and UI components
+- Focus on clarity and extensibility over visual polish
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Assumptions & Tradeoffs
+- No authentication or backend integration (out of scope)
+- Audit data is mocked to focus on frontend architecture
+- Visual design kept minimal to emphasize system thinking
+
+---
+
+## Future Improvements
+- API integration for live AI audit data
+- User authentication and saved audits
+- Advanced visualization for AI visibility metrics

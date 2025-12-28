@@ -1,0 +1,12 @@
+{
+  "brandId": "brand-1",
+  "aiVisibilityScore": 78,
+  "trustScore": 85,
+  "keywordCoverage": 62,
+  "lastAuditTimestamp": "2024-12-15T10:30:00Z",
+  "trendsData": {
+    "visibilityTrend": 12,
+    "trustTrend": 5,
+    "keywordTrend": -3
+  }
+}

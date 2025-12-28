@@ -1,0 +1,255 @@
+[
+  {
+    "id": "module-1",
+    "type": "brand-mentions",
+    "name": "Brand Mentions Analysis",
+    "description": "Tracks how often and in what context your brand is mentioned across AI search engines",
+    "score": 82,
+    "status": "good",
+    "insights": [
+      "Your brand appears in 45% of relevant AI search results",
+      "Mention frequency increased 15% this month",
+      "Primary context: enterprise software solutions"
+    ],
+    "issues": [
+      {
+        "id": "issue-1",
+        "severity": "medium",
+        "title": "Limited mention in comparison queries",
+        "description": "Brand rarely appears when users ask 'best alternatives to...'",
+        "impact": "Missing 30% of competitive research queries"
+      }
+    ],
+    "recommendations": [
+      {
+        "id": "rec-1",
+        "priority": "high",
+        "title": "Create comparison content targeting alternative queries",
+        "description": "Develop detailed comparison guides that position your product in competitive contexts",
+        "expectedImpact": "+20% visibility in comparison queries",
+        "effort": "medium"
+      }
+    ],
+    "lastUpdated": "2024-12-15T10:30:00Z"
+  },
+  {
+    "id": "module-2",
+    "type": "sentiment-analysis",
+    "name": "Sentiment & Perception",
+    "description": "Analyzes the tone and sentiment of brand mentions in AI-generated responses",
+    "score": 88,
+    "status": "excellent",
+    "insights": [
+      "92% of mentions have positive or neutral sentiment",
+      "Strong association with innovation and reliability",
+      "Customer success stories frequently cited"
+    ],
+    "issues": [
+      {
+        "id": "issue-2",
+        "severity": "low",
+        "title": "Pricing perception inconsistency",
+        "description": "Some AI responses characterize pricing as 'premium' while others say 'competitive'",
+        "impact": "May cause confusion for price-sensitive prospects"
+      }
+    ],
+    "recommendations": [
+      {
+        "id": "rec-2",
+        "priority": "medium",
+        "title": "Clarify pricing positioning in public content",
+        "description": "Publish transparent pricing guides with clear value propositions",
+        "expectedImpact": "More consistent pricing narrative",
+        "effort": "low"
+      }
+    ],
+    "lastUpdated": "2024-12-15T10:30:00Z"
+  },
+  {
+    "id": "module-3",
+    "type": "eeat-trust",
+    "name": "E-E-A-T & Trust Signals",
+    "description": "Evaluates Experience, Expertise, Authoritativeness, and Trustworthiness signals",
+    "score": 75,
+    "status": "good",
+    "insights": [
+      "Strong technical documentation cited by AI models",
+      "Leadership content frequently referenced",
+      "Third-party validation from industry analysts present"
+    ],
+    "issues": [
+      {
+        "id": "issue-3",
+        "severity": "high",
+        "title": "Limited case study visibility",
+        "description": "Customer success stories not being picked up by AI crawlers",
+        "impact": "Missing social proof in AI responses about real-world implementation"
+      }
+    ],
+    "recommendations": [
+      {
+        "id": "rec-3",
+        "priority": "high",
+        "title": "Optimize case study structure for AI consumption",
+        "description": "Reformat case studies with clear problem-solution-results sections and structured data",
+        "expectedImpact": "+15 points in trust score",
+        "effort": "medium"
+      }
+    ],
+    "lastUpdated": "2024-12-15T10:30:00Z"
+  },
+  {
+    "id": "module-4",
+    "type": "keyword-coverage",
+    "name": "Non-Branded Keyword Coverage",
+    "description": "Measures visibility for industry terms and problem-space queries (non-branded)",
+    "score": 62,
+    "status": "needs-improvement",
+    "insights": [
+      "Strong presence for branded terms (95% coverage)",
+      "Weak presence for problem-space queries (40% coverage)",
+      "Competitor content dominates educational queries"
+    ],
+    "issues": [
+      {
+        "id": "issue-4",
+        "severity": "high",
+        "title": "Low visibility in 'how to' queries",
+        "description": "Brand absent from AI responses to implementation and tutorial queries",
+        "impact": "Missing early-stage buyers in research phase"
+      },
+      {
+        "id": "issue-4b",
+        "severity": "medium",
+        "title": "Generic industry terms underrepresented",
+        "description": "Competitors mentioned 3x more often for broad category searches",
+        "impact": "Lower share of voice in category-defining moments"
+      }
+    ],
+    "recommendations": [
+      {
+        "id": "rec-4",
+        "priority": "high",
+        "title": "Develop comprehensive tutorial and guide library",
+        "description": "Create 20+ high-quality guides addressing common implementation challenges",
+        "expectedImpact": "+25% coverage in educational queries",
+        "effort": "high"
+      }
+    ],
+    "lastUpdated": "2024-12-15T10:30:00Z"
+  },
+  {
+    "id": "module-5",
+    "type": "competitor-analysis",
+    "name": "Competitive Intelligence",
+    "description": "Compares your AI visibility against key competitors",
+    "score": 71,
+    "status": "good",
+    "insights": [
+      "Main competitor has 15% higher mention rate",
+      "You lead in technical depth mentions",
+      "Competitor dominates pricing comparison queries"
+    ],
+    "issues": [
+      {
+        "id": "issue-5",
+        "severity": "medium",
+        "title": "Underrepresented in direct comparisons",
+        "description": "When users ask 'X vs Y', your brand is 'Y' only 30% of the time",
+        "impact": "Missing consideration set for active buyers"
+      }
+    ],
+    "recommendations": [
+      {
+        "id": "rec-5",
+        "priority": "high",
+        "title": "Create competitor comparison pages",
+        "description": "Publish honest, detailed comparisons for top 5 competitors",
+        "expectedImpact": "+40% inclusion in comparison queries",
+        "effort": "medium"
+      }
+    ],
+    "lastUpdated": "2024-12-15T10:30:00Z"
+  },
+  {
+    "id": "module-6",
+    "type": "content-gaps",
+    "name": "Content Gap Analysis",
+    "description": "Identifies topics and queries where your brand should appear but doesn't",
+    "score": 58,
+    "status": "needs-improvement",
+    "insights": [
+      "127 high-value queries with zero brand presence",
+      "Emerging use cases not covered in content",
+      "Integration topics underserved"
+    ],
+    "issues": [
+      {
+        "id": "issue-6",
+        "severity": "high",
+        "title": "No content for 'best practices' queries",
+        "description": "AI models cite competitors for industry best practices content",
+        "impact": "Missing thought leadership positioning"
+      },
+      {
+        "id": "issue-6b",
+        "severity": "high",
+        "title": "Integration guides missing",
+        "description": "No discoverable content about integrating with popular tools",
+        "impact": "Technical buyers unable to find implementation details"
+      }
+    ],
+    "recommendations": [
+      {
+        "id": "rec-6",
+        "priority": "high",
+        "title": "Launch best practices content series",
+        "description": "Create 15+ articles covering industry best practices with your expertise",
+        "expectedImpact": "+20 points in content coverage",
+        "effort": "high"
+      },
+      {
+        "id": "rec-6b",
+        "priority": "high",
+        "title": "Develop integration documentation",
+        "description": "Publish detailed guides for top 10 integration scenarios",
+        "expectedImpact": "+15% technical query visibility",
+        "effort": "medium"
+      }
+    ],
+    "lastUpdated": "2024-12-15T10:30:00Z"
+  },
+  {
+    "id": "module-7",
+    "type": "citation-tracking",
+    "name": "Citation & Source Quality",
+    "description": "Tracks which of your sources are being cited by AI models and their quality",
+    "score": 79,
+    "status": "good",
+    "insights": [
+      "Documentation cited 45% of the time when brand mentioned",
+      "Blog posts have 2.3x higher citation rate than landing pages",
+      "Video transcripts rarely cited (only 5% of video content)"
+    ],
+    "issues": [
+      {
+        "id": "issue-7",
+        "severity": "medium",
+        "title": "Product pages not being cited",
+        "description": "Core product information pages have low citation rates",
+        "impact": "AI responses use outdated or incomplete product info"
+      }
+    ],
+    "recommendations": [
+      {
+        "id": "rec-7",
+        "priority": "medium",
+        "title": "Restructure product pages for AI readability",
+        "description": "Add clear sections, FAQs, and structured data to product pages",
+        "expectedImpact": "+30% product page citation rate",
+        "effort": "medium"
+      }
+    ],
+    "lastUpdated": "2024-12-15T10:30:00Z"
+  }
+]

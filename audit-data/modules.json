@@ -1,0 +1,117 @@
+{
+  "modules": [
+    {
+      "id": "brand-mentions",
+      "name": "Brand Mentions",
+      "score": 72,
+      "insights": [
+        "Brand is frequently referenced in AI-generated answers",
+        "Mentions are stronger for product-related queries"
+      ],
+      "issues": [
+        "Low visibility for non-branded informational queries"
+      ],
+      "recommendations": [
+        "Increase authoritative content around core topics",
+        "Publish expert-led thought leadership articles"
+      ]
+    },
+    {
+      "id": "sentiment",
+      "name": "Sentiment Analysis",
+      "score": 65,
+      "insights": [
+        "Overall sentiment is neutral to positive",
+        "Positive mentions are driven by product quality"
+      ],
+      "issues": [
+        "Limited emotional language in AI references"
+      ],
+      "recommendations": [
+        "Encourage customer stories and testimonials",
+        "Highlight use cases with measurable outcomes"
+      ]
+    },
+    {
+      "id": "eeat",
+      "name": "E-E-A-T & Trust",
+      "score": 58,
+      "insights": [
+        "Some expert signals detected",
+        "Citations come from mid-authority sources"
+      ],
+      "issues": [
+        "Lack of strong first-party expert authorship",
+        "Few high-authority citations"
+      ],
+      "recommendations": [
+        "Add author bios with credentials",
+        "Secure mentions from authoritative publications"
+      ]
+    },
+    {
+      "id": "keyword-coverage",
+      "name": "Keyword Coverage",
+      "score": 70,
+      "insights": [
+        "Good coverage for branded queries",
+        "Moderate presence for category keywords"
+      ],
+      "issues": [
+        "Weak coverage for long-tail non-branded queries"
+      ],
+      "recommendations": [
+        "Expand content targeting long-tail keywords",
+        "Optimize pages for semantic relevance"
+      ]
+    },
+    {
+      "id": "competitors",
+      "name": "Competitor Analysis",
+      "score": 60,
+      "insights": [
+        "Competitors appear more frequently in AI answers",
+        "Competitors have stronger topical authority"
+      ],
+      "issues": [
+        "Lower comparative visibility in AI search results"
+      ],
+      "recommendations": [
+        "Analyze competitor content gaps",
+        "Build deeper topic clusters"
+      ]
+    },
+    {
+      "id": "content-gaps",
+      "name": "Content Gaps",
+      "score": 55,
+      "insights": [
+        "Several high-intent topics are missing",
+        "Limited coverage of emerging trends"
+      ],
+      "issues": [
+        "Content does not fully address user intent"
+      ],
+      "recommendations": [
+        "Create content for missing high-intent topics",
+        "Refresh outdated articles"
+      ]
+    },
+    {
+      "id": "visibility",
+      "name": "AI Visibility Score",
+      "score": 68,
+      "insights": [
+        "Moderate visibility across AI search engines",
+        "Strongest presence in ChatGPT responses"
+      ],
+      "issues": [
+        "Lower visibility in Gemini and Perplexity"
+      ],
+      "recommendations": [
+        "Optimize content for multi-engine coverage",
+        "Strengthen entity consistency"
+      ]
+    }
+  ]
+}
